@@ -1,9 +1,9 @@
 app-id: org.expresslrs.ExpressLRSConfigurator
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: '22.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
 command: expresslrs-configurator
@@ -33,8 +33,8 @@ modules:
       - find . -type f -name perllocal.pod -delete
     sources:
       - type: archive
-        sha256: 814641d7f61659cfbc17825d0462499ca1403e39ff53d76a8512050e6483e87a
-        url: https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.37.3.tar.xz
+        sha256: 97ddf8ea58a2b9e0fbc2508e245028ca75911bd38d1551616b148c1aa5740ad9
+        url: https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.38.1.tar.xz
         x-checker-data:
           type: html
           url: https://mirrors.edge.kernel.org/pub/software/scm/git/
@@ -49,7 +49,8 @@ modules:
       - cp -r 'opt/ExpressLRS Configurator' '/app/ExpressLRS-Configurator'
       - cp -R usr/share /app
       - rm -rf /app/share/icons/hicolor/1024x1024
-      - desktop-file-edit --set-key=Exec --set-value='/app/bin/expresslrs-configurator' /app/share/applications/expresslrs-configurator.desktop
+      - desktop-file-edit --set-key=Exec --set-value='/app/bin/expresslrs-configurator'
+        /app/share/applications/expresslrs-configurator.desktop
       - install -Dm755 expresslrs-configurator.sh /app/bin/expresslrs-configurator
       - install -Dm644 org.expresslrs.ExpressLRSConfigurator.appdata.xml /app/share/metainfo/org.expresslrs.ExpressLRSConfigurator.metainfo.xml
     sources:
