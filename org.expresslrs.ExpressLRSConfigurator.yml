@@ -1,9 +1,9 @@
 app-id: org.expresslrs.ExpressLRSConfigurator
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: '22.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
 command: expresslrs-configurator
@@ -57,13 +57,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v1.5.3/expresslrs-configurator_1.5.3_amd64.deb
+        url: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v1.5.4/expresslrs-configurator_1.5.4_amd64.deb
         x-checker-data:
           type: anitya
           project-id: 301823
           url-template: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v$version/expresslrs-configurator_${version}_amd64.deb
           is-main-source: true
-        sha256: ecb82c07a620fc21286bf92161722360090974a47b84ea6fe55490ca5456d610
+        sha256: a28283be5c7d21f8567459d76e69e5d3292e0a2ee6a0db101d811ba68b5c3db8
       - type: file
         path: expresslrs-configurator.sh
       - type: file
