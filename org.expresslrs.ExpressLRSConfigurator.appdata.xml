@@ -36,10 +36,26 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.5.9" date="2023-04-27">
+      <description>
+        <ul>
+          <li>Bugfix: macOS git integration</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.5.8" date="2023-04-27">
+      <description>
+        <ul>
+          <li>Bugfix: Platform IO installer fails if the path to the installer temporary directory is too long in Windows</li>
+          <li>Adding NewBeeDrone Alias/target</li>
+          <li>Adds Happymodel EPW5 and EPW6 targets</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.5.7" date="2023-04-24">
       <description>
         <ul>
-          <li>- Use different data storage path so Platformio install works again in Windows environment</li>
+          <li>Use different data storage path so Platformio install works again in Windows environment</li>
         </ul>
       </description>
     </release>
