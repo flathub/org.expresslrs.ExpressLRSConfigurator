@@ -36,6 +36,15 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.5.10" date="2023-05-25">
+      <description>
+        <ul>
+          <li>Rename HappyModel EP to EP1/2</li>
+          <li>Fix HDZero Standalone VRX Backpack target</li>
+          <li>Rename "HappyModel EP82 VRX Backpack" target to "HappyModel EP82 VRX Rapidfre Backpack"</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.5.9" date="2023-04-27">
       <description>
         <ul>
