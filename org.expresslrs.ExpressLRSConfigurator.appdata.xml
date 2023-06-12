@@ -36,6 +36,14 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.6.0-rc1" date="2023-06-10" type="development">
+      <description>
+        <ul>
+          <li>Add ExpressLRS Cloudbuilds support</li>
+          <li>Add Backpack Cloudbuilds support</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.5.10" date="2023-05-25">
       <description>
         <ul>
