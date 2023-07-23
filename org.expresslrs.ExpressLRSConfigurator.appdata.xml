@@ -36,6 +36,24 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.6.0" date="2023-07-21">
+      <description>
+        <ul>
+          <li>Add ExpressLRS Cloudbuilds support</li>
+          <li>Add Backpack Cloudbuilds support</li>
+          <li>Add localization support (Thanks @L1cardo!)</li>
+          <li>Add erase and force flash as flashing options</li>
+          <li>Add crowdin.com integration</li>
+          <li>Fetch locales through http requests to the backend server</li>
+          <li>Fix i18next types default namespace path</li>
+          <li>Fix error after flashing</li>
+          <li>Check if the read config is valid before setting type and frequency</li>
+          <li>Fix issue with Auto Updater and I18n</li>
+          <li>When filtering the Wi-Fi device selection list, examine the lua name as well as the prior target name</li>
+          <li>Add type checking to husky pre commit</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.5.10" date="2023-05-25">
       <description>
         <ul>
