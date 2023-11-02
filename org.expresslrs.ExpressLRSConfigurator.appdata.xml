@@ -36,6 +36,17 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.6.1" date="2023-11-02">
+      <description>
+        <ul>
+          <li>Fix issue with Device Target Form</li>
+          <li>Unsupported OS Message</li>
+          <li>Moved query of log file content to GraphQL</li>
+          <li>Support Separate Targets Repo</li>
+          <li>Update translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.6.0" date="2023-07-21">
       <description>
         <ul>
