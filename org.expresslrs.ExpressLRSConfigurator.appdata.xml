@@ -36,6 +36,22 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.0" date="2024-06-19">
+      <description>
+        <ul>
+            <li>Implement expert mode</li>
+            <li>Upgrade to Electron 27</li>
+            <li>Fix Ubuntu 24.04 compatibility</li>
+            <li>Fix Wi-Fi turning on with AUTO_WIFI_ON_INTERVAL disabled</li>
+            <li>Add "Flash again" button for massive flashing</li>
+            <li>Update gitignore to include windows release files</li>
+            <li>Fix regulatory domain override when using manual user defines</li>
+            <li>Fix typo in locales.json</li>
+            <li>Add Danish translation</li>
+            <li>Sort languages list alphabetically in settings screen</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.6.1" date="2023-11-02">
       <description>
         <ul>
