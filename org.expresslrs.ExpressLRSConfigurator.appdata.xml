@@ -36,6 +36,9 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.0" date="2024-06-19">
+      <description></description>
+    </release>
     <release version="1.6.1" date="2023-11-02">
       <description>
         <ul>
