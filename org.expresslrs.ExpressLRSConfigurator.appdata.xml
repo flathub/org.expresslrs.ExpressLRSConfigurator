@@ -36,8 +36,23 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.2" date="2024-07-18">
+      <description>
+        <ul>
+          <li>Fix Serial Monitor baud rate</li>
+          <li>Fix missing wifi options for non esp32/esp8285 platforms</li>
+          <li>Update translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.7.1" date="2024-07-04">
-      <description></description>
+      <description>
+        <ul>
+          <li>Fix local builds</li>
+          <li>Add Portuguese language</li>
+          <li>Do not pass user defines when in manual mode</li>
+        </ul>
+      </description>
     </release>
     <release version="1.7.0" date="2024-06-19">
       <description>
