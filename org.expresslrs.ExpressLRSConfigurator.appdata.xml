@@ -36,8 +36,16 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="1.7.3" date="2024-08-30">
-      <description></description>
+    <release version="1.7.3" date="2024-09-02">
+      <description>
+        <ul>
+          <li>Add --rx-as-tx flag support</li>
+          <li>Prefer ipv4 resolution as a workaround for ISPs who fake IPv6 compat</li>
+          <li>Bugfix: Target selectors disappeared in Expert mode on Ubuntu 24.04</li>
+          <li>Add zip flashing method support, handle unknown flashing methods gracefully</li>
+          <li>Extend build time warning timeout to 60 secs</li>
+        </ul>
+      </description>
     </release>
     <release version="1.7.2" date="2024-07-18">
       <description>
