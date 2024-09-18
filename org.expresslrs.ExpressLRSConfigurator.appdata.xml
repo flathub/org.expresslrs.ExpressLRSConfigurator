@@ -36,6 +36,36 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.6" date="2024-09-15">
+      <description>
+        <ul>
+          <li>Enable support for LOCK_ON_FIRST_CONNECTION</li>
+          <li>Fix backpack build</li>
+          <li>Fix RX_AS_TX for esp32-c3 targets</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.7.5" date="2024-09-14">
+      <description>
+        <ul>
+          <li>Add Gemini support</li>
+          <li>Fix broken LoRaWAN Link</li>
+          <li>Disable RX_AS_TX for STM32 based devices</li>
+          <li>Improve RxAsTx description text</li>
+          <li>Fix true diversity receivers</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.7.4" date="2024-09-14">
+      <description>
+        <ul>
+          <li>Add Gemini support</li>
+          <li>Fix broken LoRaWAN Link</li>
+          <li>Disable RX_AS_TX for STM32 based devices</li>
+          <li>Improve RxAsTx description text</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.7.3" date="2024-09-02">
       <description>
         <ul>
