@@ -33,8 +33,8 @@ modules:
       - find . -type f -name perllocal.pod -delete
     sources:
       - type: archive
-        sha256: 5ee8a1c68536094a4f7f9515edc154b12a275b8a57dda4c21ecfbf1afbae2ca3
-        url: https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.46.2.tar.xz
+        sha256: 1ce114da88704271b43e027c51e04d9399f8c88e9ef7542dae7aebae7d87bc4e
+        url: https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.47.0.tar.xz
         x-checker-data:
           type: html
           url: https://mirrors.edge.kernel.org/pub/software/scm/git/
@@ -57,13 +57,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v1.7.6/expresslrs-configurator_1.7.6_amd64.deb
+        url: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v1.7.7/expresslrs-configurator_1.7.7_amd64.deb
         x-checker-data:
           type: anitya
           project-id: 301823
           url-template: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v$version/expresslrs-configurator_${version}_amd64.deb
           is-main-source: true
-        sha256: 3951c1bdc227ecaa4bae8faf8c56ccb3ff68768b0f9180afdd3834c9ce5b3963
+        sha256: ce87561bd096f0fce308ebff11efd3b9eec6160dbf68fd04c79ea85dbb95431e
       - type: file
         path: expresslrs-configurator.sh
       - type: file

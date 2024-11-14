@@ -36,6 +36,19 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.7" date="2024-11-12">
+      <description>
+        <ul>
+          <li>Human friendly user define names</li>
+          <li>Move advanced user defines to expert mode</li>
+          <li>Added a translated polish version of the configurator</li>
+          <li>Enable support for LOCK_ON_FIRST_CONNECTION on cloudbuilds</li>
+          <li>Fix RX_AS_TX for esp32-c3 targets</li>
+          <li>Remove UART_INVERTED option for all ESP32 based devices</li>
+          <li>Update translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.7.6" date="2024-09-15">
       <description>
         <ul>
