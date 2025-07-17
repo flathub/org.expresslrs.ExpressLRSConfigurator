@@ -36,6 +36,20 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.8" date="2025-07-16">
+      <description>
+        <ul>
+          <li>Add LBT support for LR1121 hardware</li>
+          <li>Remove manual user defines mode</li>
+          <li>Add dual band label</li>
+          <li>Ignore global system git config files</li>
+          <li>Make binding phrase, wifi ssid and password settings global</li>
+          <li>Fix local builds unable to flash custom targets</li>
+          <li>Update Portable GIT for Windows to version 2.47.0.2</li>
+          <li>Update translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.7.7" date="2024-11-12">
       <description>
         <ul>
