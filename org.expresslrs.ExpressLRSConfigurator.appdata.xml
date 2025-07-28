@@ -36,6 +36,13 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.9" date="2025-07-28">
+      <description>
+        <ul>
+          <li>Fix backpack mislabeling as dual band</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.7.8" date="2025-07-16">
       <description>
         <ul>
