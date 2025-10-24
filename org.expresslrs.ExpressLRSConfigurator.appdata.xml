@@ -36,6 +36,15 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.7.11" date="2025-10-23">
+      <description>
+        <ul>
+          <li>Update Wi-Fi startup delay option description</li>
+          <li>Translation updates</li>
+          <li>Add TM symbol</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.7.10" date="2025-09-25">
       <description>
         <ul>
