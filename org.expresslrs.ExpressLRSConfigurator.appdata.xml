@@ -36,6 +36,22 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.8.3" date="2026-07-22">
+      <description>
+        <ul>
+          <li>Add native macOS arm64 (Apple Silicon) build and update bundled Python to 3.14.6</li>
+          <li>Add binding phrase history for quickly reusing previous binding phrases</li>
+        </ul>
+      </description>
+    </release>
+    <release version="1.8.2" date="2026-07-14">
+      <description>
+        <ul>
+          <li>Add passthrough mode step display for easier recovery flashing</li>
+          <li>Update translations</li>
+        </ul>
+      </description>
+    </release>
     <release version="1.7.11" date="2025-10-23">
       <description>
         <ul>
