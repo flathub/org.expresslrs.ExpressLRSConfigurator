@@ -1,3 +1,7 @@
 {
-  "only-arches": ["x86_64"]
+  "only-arches": ["x86_64"],
+  "smoke-test": {
+    "enabled": true,
+    "screenshot-recipe": "ci/screenshots.yml"
+  }
 }
