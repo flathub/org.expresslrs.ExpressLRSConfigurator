@@ -36,6 +36,22 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="1.8.4" date="2026-10-26">
+      <description>
+      <ul>
+        <li>Fix local builds of 2.4 GHz-only LR1121/LR2021 devices</li>
+        <li>Hide targets that newer firmware versions no longer support</li>
+        <li>Validate the AUTO_WIFI_ON_INTERVAL range and always show the allowed range</li>
+        <li>Security hardening: the local API server now listens only on localhost and needs a new auth token on each launch, build targets are sanitized, and PlatformIO no longer runs through a shell</li>
+        <li>Always show build logs in expert mode</li>
+        <li>Clarify the "Passthrough" flashing method description</li>
+        <li>Add Arabic language and right-to-left (RTL) layout support</li>
+        <li>Fix a typo in the Danger Zone description</li>
+        <li>Upgrade Electron to 44</li>
+        <li>Update translations (thank you to all Crowdin translators!)</li>
+      </ul>
+      </description>
+    </release>
     <release version="1.8.3" date="2026-07-22">
       <description>
         <ul>
