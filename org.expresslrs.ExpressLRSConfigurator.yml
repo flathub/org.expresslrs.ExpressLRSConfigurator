@@ -61,13 +61,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v1.8.4/expresslrs-configurator_1.8.4_amd64.deb
+        url: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v1.8.5/expresslrs-configurator_1.8.5_amd64.deb
         x-checker-data:
           type: anitya
           project-id: 301823
           url-template: https://github.com/ExpressLRS/ExpressLRS-Configurator/releases/download/v$version/expresslrs-configurator_${version}_amd64.deb
           is-main-source: true
-        sha256: ed7f61aa023545fc0878d916a786779fe4b1c01133e87ea218e958e4ea971b11
+        sha256: f0d64e8276025bcf2d07c1012a047326bfd33d4a0e5ed58fbe4672c5ab130167
       - type: file
         path: expresslrs-configurator.sh
       - type: file
