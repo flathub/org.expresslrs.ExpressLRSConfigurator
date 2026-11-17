@@ -40,8 +40,10 @@
       <description>
         <ul>
           <li>The Lua button now opens a download dialog with two options:
+            <ul>
               <li>ExpressLRS Lua from the new ExpressLRS/Lua releases: configuration tool, bind manager and widgets. Needs EdgeTX 2.12.1 or newer and ExpressLRS 3.5.4 or newer</li>
               <li>Legacy script: configuration tool only, for EdgeTX 2.11 or older and OpenTX</li>
+            </ul>
           </li>
           <li>Update translations (thank you to all Crowdin translators!)</li>
         </ul>
