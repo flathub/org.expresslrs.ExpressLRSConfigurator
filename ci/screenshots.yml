@@ -1,0 +1,19 @@
+version: 1
+launch:
+  args:
+    - --ozone-platform=wayland
+window:
+  width: 1000
+  height: 700
+steps:
+  - wait_text: Flash firmware
+    timeout: 60s
+  - capture:
+      name: home
+      caption: Choose firmware tools and find getting started resources
+  - click_text: Flash the main ExpressLRS firmware to your
+  - wait_text: Firmware version
+    timeout: 60s
+  - capture:
+      name: configurator
+      caption: Choose firmware and a device target
